@@ -24,7 +24,7 @@ while True:
     print('kontrolinis:', kontrolinis, kontrolinis % 11)
     if kontrolinis % 11 == 10:
         for daugiklio_nr, skaitmuo in enumerate(asmens_kodas[:10]):
-            kontrlinis += int(skaitmu0) * int(kiti_daugikliai[daugiklio_nr])
+            kontrolinis += int(skaitmuo) * int(kiti_daugikliai[daugiklio_nr])
         tikrininamas = kontrolinis % 11
     print('sekantis kontrolinis:', kontrolinis, kontrolinis % 11)
     tikrininamas = kontrolinis % 11
